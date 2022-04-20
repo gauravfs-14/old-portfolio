@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+  .sec {
+    height: fit-content;
+  }
+  /* home section  */
+  .landing {
+    padding-top: 10vh;
+  }
+  .main {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .text {
+    margin-top: 9vh;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .para {
+    width: 100%;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .img {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  .icons {
+    margin-top: 90px;
+  }
+  /* about section  */
+  .abt {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .imgAbout {
+    width: 90%;
+    height: auto;
+  }
+  .imgAbout img {
+    height: auto;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .abtMain {
+    width: 100%;
+    padding-top: 10px;
+  }
+  /* services section  */
+  .service {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 15%;
+  }
+  /* projects section  */
+  .prjImg {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+  .grp1,
+  .grp2 {
+    flex-direction: column;
+  }
+  .prjImg div {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  .prjImg div img {
+    border-radius: 5px;
+  }
+  /* contact section  */
+  #contact {
+    min-height: 90vh;
+  }
+  .contact {
+    padding-top: 20%;
+  }
+  /* footer section */
+  .footer {
+    margin-top: auto;
+  }
+  .footIcons {
+    margin-top: 10px;
+  }
+}
